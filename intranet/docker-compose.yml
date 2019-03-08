@@ -1,0 +1,7 @@
+httpd:
+  image: php5.6
+  container_name: intranet
+  ports:
+    - 8020:80
+  volumes:
+    - ./:/var/www/html
